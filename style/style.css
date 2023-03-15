@@ -3,9 +3,15 @@
 :root{
   --bg-principal: #ebecee;
   --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --font-pops: "Poppins"
 }
 
 body{
   background-color: var(--bg-principal) ;
+  font-family: var(--font-pops);
+  font-size: 16px;
+  font-weight: 400
 }
 

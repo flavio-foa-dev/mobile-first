@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 
@@ -22,4 +23,40 @@
 
 .container__img {
   padding: 1em;
+}
+
+.container__btn{
+  display: none;
+}
+
+.container__btn:checked ~ .list-menu {
+  display: block;
+}
+
+.list-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
+
+.list-menu__title,
+.list-menu__item {
+  padding: .8rem;
+  background-color: var(--branco);
+}
+
+.list-menu__title {
+  color: var(--laranja);
+  font-weight: 700;
+}
+
+.list-menu__item:hover {
+  background-color: var(--bg-principal);
+}
+
+.list-menu__link {
+  background-color: var(--azul-degrade);
+  text-decoration: none;
+  text-transform: uppercase;
 }
