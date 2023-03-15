@@ -1,11 +1,11 @@
+@import url("./header.css");
+
 :root{
   --bg-principal: #ebecee;
+  --branco: #ffffff;
 }
 
 body{
   background-color: var(--bg-principal) ;
 }
 
-h1 {
-  background-color: white;
-}

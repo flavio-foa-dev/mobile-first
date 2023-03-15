@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header__menu{
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/Menu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.container__img {
+  padding: 1em;
+}
