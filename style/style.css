@@ -3,6 +3,9 @@
 @import url("./carrossel.css");
 @import url("./maisVendido.css");
 @import url("./topico.css");
+@import url("./contato.css");
+@import url("./footer.css");
+
 
 :root{
   --bg-principal: #ebecee;
