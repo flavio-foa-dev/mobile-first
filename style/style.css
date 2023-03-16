@@ -2,6 +2,7 @@
 @import url("./banner.css");
 @import url("./carrossel.css");
 @import url("./maisVendido.css");
+@import url("./topico.css");
 
 :root{
   --bg-principal: #ebecee;
