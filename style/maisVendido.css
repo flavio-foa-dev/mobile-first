@@ -1,0 +1,11 @@
+.mais-vendido__title {
+  background-color: var(--branco);
+  color: var(--laranja);
+  font-size: 18px;
+  font-weight:700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 0 .5em 0;
+
+
+}
