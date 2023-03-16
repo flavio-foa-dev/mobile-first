@@ -69,13 +69,13 @@
   display: flex;
 }
 
-.list-btn__item {
-  margin: 0
+.list-btn__item img {
+  padding: 0 ;
 }
 
 .btn-ancora {
   background-color: var(--laranja);
-  padding: 1em 1.8em;
+  padding: 1em 2.2em;
   margin-right: 7px;
   color: var(--branco);
   font-weight: 700;
