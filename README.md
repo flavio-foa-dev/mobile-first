@@ -14,3 +14,9 @@
 - Importar e usar fontes do google fonts;
 - Criar sections;
 - Editar input e seu placeholder.
+- Aplicar plugins externos através de CDN;
+- Utilizar o plugin SwiperJS para criar um carrossel;
+- flexbox;
+- Reutilizar elementos e estilos;
+- ul e li;
+- Editar input e seu placeholder.

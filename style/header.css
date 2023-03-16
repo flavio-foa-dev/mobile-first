@@ -57,6 +57,7 @@
 
 .list-menu__link {
   background-color: var(--azul-degrade);
+  color: var(--azul-secundario);
   text-decoration: none;
   text-transform: uppercase;
 }
