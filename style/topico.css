@@ -28,3 +28,22 @@
   font-size: 14px;
   font-weight: 700
 }
+
+@media screen and (min-width: 1024px) {
+
+  .topico{
+    padding: 2.5em 0 2em 0
+  }
+
+  .topico__title {
+    font-size: 1.5em
+  }
+
+  .topico__list__link {
+    font-size: 1.5em
+  }
+
+  .topico__list__item {
+    margin: 2.2em .5em
+  }
+}

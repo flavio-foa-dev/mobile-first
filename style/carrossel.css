@@ -85,3 +85,30 @@
 .btn-ancora:hover {
   background-color: rgb(226, 118, 41);
 }
+
+@media screen and (min-width: 1024px) {
+
+  .carrossel__title {
+    font-size: 1.6em
+  }
+
+  .swiper-pagination {
+    margin: 1.5em 0 2.3em 0;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    margin-top: auto;
+  }
+
+  .card {
+    width: 50%;
+    margin: 2em auto;
+  }
+
+}
