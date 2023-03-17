@@ -34,3 +34,26 @@
   background-repeat: no-repeat;
   background-position: .7em;
 }
+
+@media screen and (min-width: 1024px) {
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contato__descri {
+    margin-right: 1em;
+    width: 30%;
+
+  }
+
+  .contato__title {
+    font: size 1.5em
+  }
+
+  .contato__input-email {
+    width: 50%;
+  }
+
+}
