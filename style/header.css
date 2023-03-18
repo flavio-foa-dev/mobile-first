@@ -94,6 +94,7 @@
     display: block;
     font-weight: 300;
     font-size: 30px;
+    color: var(--cor-secundaria) ;
   }
 
   .list-opcoa {
