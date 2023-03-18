@@ -44,3 +44,16 @@ hr {
   }
 
 }
+
+@media screen and (min-width: 1728px) {
+
+  .footer__list {
+    border-left: 1px solid var(--cinza);
+    padding-left: 1em;
+  }
+
+  .footer {
+    padding: 3em 0;
+  }
+
+}

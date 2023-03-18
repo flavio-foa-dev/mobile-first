@@ -6,6 +6,16 @@
   position: relative;
 }
 
+.container__btn:checked~.container__label>.header__menu {
+  background-image: url("../img/Menu\ Aberto.png");
+}
+
+
+.container__btn:checked~.container__label {
+  background-color: var(--azul-secundario);
+}
+
+
 
 .header__menu{
   width: 24px;
@@ -117,9 +127,21 @@
   .list-opcoa__btn {
     display: none;
   }
+
+  .list-opcoa__btn:checked ~ .list-opcoa__label > .list-opcao__item {
+    background-color: var(--azul-secundario);
+    color: var(--branco);
+  }
+
+  .list-opcao__item {
+    padding: 2.2em 2.06em;
+    cursor: pointer;
+
+  }
+
 }
 
-@media screen and (min-width: 1728px){
+@media screen and (min-width: 1728px) {
   .container__link {
     display: flex;
     align-items: center;
@@ -140,3 +162,4 @@
     margin-top: .6em;
   }
 }
+
