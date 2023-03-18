@@ -112,3 +112,35 @@
   }
 
 }
+
+@media screen and (min-width: 1728px) {
+
+  .carrossel__container {
+    display: flex;
+    margin: 0 15vw 4em 15vw ;
+    align-items: center;
+  }
+
+  .swiper {
+    width: 45%
+  }
+
+  .card {
+    width: 45%;
+    margin-top: 5.5em;
+    margin-left: 4em;
+  }
+
+  .descri__title {
+    font-size: 32px;
+  }
+
+  .descri__text {
+    font-size: 1em;
+  }
+
+  .descri {
+    margin-right: 3em;
+
+  }
+}

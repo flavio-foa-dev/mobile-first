@@ -73,8 +73,16 @@
 
     <div class="container">
       <a href="#"><img src="./img/Favoritos.svg" alt="favorito" class="container__img container__img__none"></a>
-      <a href="#"><img src="./img/Compras.svg" alt="carrinho compras" class="container__img"></a>
-      <a href="#"><img src="./img/Usuário.svg" alt="perfil" class="container__img"></a>
+
+      <a href="#" class="container__link">
+        <img src="./img/Compras.svg" alt="carrinho compras" class="container__img">
+        <p class="container__text">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="./img/Usuário.svg" alt="perfil" class="container__img">
+        <p class="container__text">Meu Perfil</p>
+
+      </a>
     </div>
   </header>
 
@@ -85,46 +93,47 @@
   </section>
   <section class="carrossel">
     <h2 class="carrossel__title">Novos lancamentos</h2>
-
-    <div class="swiper">
-      <div class="swiper-pagination"></div>
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./img/ApacheKafka.png" alt="capa livro"></div>
-        <div class="swiper-slide"><img src="./img/Guia Front-end.png" alt="capa livro"></div>
-        <div class="swiper-slide"><img src="./img/Javascript.png" alt="capa livro"></div>
-        <div class="swiper-slide"><img src="./img/Liderança.png" alt="capa livro"></div>
-        <div class="swiper-slide"><img src="./img/Portugol.png" alt="capa livro"></div>
-      </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-
-    <div class="card">
-      <div class="card_descri">
-        <div class="descri">
-          <h3 class="descri__title">Talvez voce se interesse por...</h3>
-          <h2 class="descri__title-book">Angular 11 e Firebase</h2>
-          <p class="descri__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+    <div class="carrossel__container">
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/ApacheKafka.png" alt="capa livro"></div>
+          <div class="swiper-slide"><img src="./img/Guia Front-end.png" alt="capa livro"></div>
+          <div class="swiper-slide"><img src="./img/Javascript.png" alt="capa livro"></div>
+          <div class="swiper-slide"><img src="./img/Liderança.png" alt="capa livro"></div>
+          <div class="swiper-slide"><img src="./img/Portugol.png" alt="capa livro"></div>
         </div>
-        <img src="./img/Angular.png" class="card__descri__img">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <div class="card_btn">
-        <ul class="list-btn">
-          <li class="list-btn__item">
-            <img src="./img/Favoritos.svg" alt="favorito" class="container__img">
-          </li>
-          <li class="list-btn__item">
-            <img src="./img/Compras.svg" alt="carrinho compras" class="container__img">
-          </li>
-        </ul>
-        <a href="#" class="btn-ancora">Saiba mais</a>
+
+      <div class="card">
+        <div class="card_descri">
+          <div class="descri">
+            <h3 class="descri__title">Talvez voce se interesse por...</h3>
+            <h2 class="descri__title-book">Angular 11 e Firebase</h2>
+            <p class="descri__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+          </div>
+          <img src="./img/Angular.png" class="card__descri__img">
+        </div>
+        <div class="card_btn">
+          <ul class="list-btn">
+            <li class="list-btn__item">
+              <img src="./img/Favoritos.svg" alt="favorito" class="container__img">
+            </li>
+            <li class="list-btn__item">
+              <img src="./img/Compras.svg" alt="carrinho compras" class="container__img">
+            </li>
+          </ul>
+          <a href="#" class="btn-ancora">Saiba mais</a>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="mais-vendidos">
     <h2 class="mais-vendido__title">Mais vendido</h2>
-
+    <div class="carrossel__container">
     <div class="swiper">
       <div class="swiper-pagination"></div>
       <div class="swiper-wrapper">
@@ -159,6 +168,7 @@
         </ul>
         <a href="#" class="btn-ancora">Saiba mais</a>
       </div>
+    </div>
     </div>
   </section>
 

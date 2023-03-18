@@ -6,6 +6,10 @@
   text-transform: uppercase;
   text-align: center;
   padding: 1em 0 .5em 0;
+}
 
-
+@media screen and (min-width: 1728px) {
+  .mais-vendido__title {
+    font-size: 24px;
+  }
 }

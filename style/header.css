@@ -70,6 +70,10 @@
   display: none;
 }
 
+.container__text{
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
   .container__negrito {
@@ -112,5 +116,27 @@
 
   .list-opcoa__btn {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1728px){
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  .header {
+    padding: 0 2em
+  }
+
+  .container__text{
+    display: block;
+  }
+
+  .list-opcoa {
+    margin-right: auto;
+    margin-top: .6em;
   }
 }
