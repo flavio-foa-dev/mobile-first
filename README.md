@@ -20,3 +20,7 @@
 - Reutilizar elementos e estilos;
 - ul e li;
 - Editar input e seu placeholder.
+- Usar media queries;
+- Aplicar diferentes estilos para diferentes tamanhos de tela;
+- Retirar elementos da tela;
+- Aplicar elementos na tela de acordo com o tamanho do dispositivo.
