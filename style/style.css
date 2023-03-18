@@ -10,11 +10,12 @@
 :root{
   --bg-principal: #ebecee;
   --branco: #ffffff;
-  --laranja: #eb9b00;
+  --laranja: #00FF43;
   --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-  --azul-secundario:#012F52;
+  --azul-secundario:#29612A;
   --cinza: #474646;
-  --font-pops: "Poppins"
+  --font-pops: "Poppins";
+  --cor-secundaria: #1E611F;
 }
 
 body{
