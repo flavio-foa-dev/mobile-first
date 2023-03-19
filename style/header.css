@@ -10,12 +10,9 @@
   background-image: url("../img/Menu\ Aberto.png");
 }
 
-
 .container__btn:checked~.container__label {
   background-color: var(--azul-secundario);
 }
-
-
 
 .header__menu{
   width: 24px;
@@ -52,7 +49,7 @@
 
 .list-menu__title,
 .list-menu__item {
-  padding: .8rem;
+  padding: .9rem;
   background-color: var(--branco);
 }
 
@@ -60,6 +57,8 @@
   color: var(--laranja);
   font-weight: 700;
 }
+
+
 
 .list-menu__item:hover {
   background-color: var(--bg-principal);
